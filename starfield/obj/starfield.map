@@ -1,0 +1,114 @@
+ASxxxx Linker V03.00 + NoICE + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           cpct_random
+     00000000  l__DATA                         
+     0000000F  max_entities                       
+     00000255  l__CODE                         
+     00004000  s__CODE                         
+     00004255  s__DATA                         
+ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE                               00004000    00000255 =         597. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00004000  _reserved_entities                 
+     00004001  _last_element_ptr                  
+     00004003  _function_forall                   
+     00004004  m_entities                         
+     0000404F  manager_entity_init                
+     00004050  manager_entity_create              
+     0000407E  manager_entity_forall              
+     000040A9  manager_entity_set4destruction     
+     000040AE  manager_entity_restart             
+     000040B7  init_e0                            cpct_keyboard
+     000040BC  init_e1                            cpct_keyboard
+     000040C1  init_e2                            cpct_keyboard
+     000040C6  init_e3                            cpct_keyboard
+     000040CB  init_e4                            cpct_keyboard
+     000040D0  init_e5                            cpct_keyboard
+     000040D5  init_e6                            cpct_keyboard
+     000040DA  init_e7                            cpct_keyboard
+     000040DF  init_e8                            cpct_keyboard
+     000040E4  init_e9                            cpct_keyboard
+     000040E9  init_e10                           cpct_keyboard
+     000040EE  init_e11                           cpct_keyboard
+     000040F3  init_e12                           cpct_keyboard
+     000040F8  init_e13                           cpct_keyboard
+     000040FD  init_e14                           cpct_keyboard
+     00004102  _main                              cpct_keyboard
+     0000416F  wait_go_slow                       cpct_keyboard
+     00004179  system_physics_update_one_entity   
+     00004198  system_physics_update              
+     0000419E  system_render_one_entity           
+     000041B7  system_render_update               
+     000041BD  cpct_setPALColour_asm              cpct_video
+     000041C7  cpct_setVideoMode_asm              cpct_video
+     000041D4  _cpct_waitVSYNC                    cpct_video
+     000041D4  cpct_waitVSYNC_asm                 cpct_video
+     000041DC  _cpct_disableFirmware              cpct_firmware
+     000041DC  _cpct_removeInterruptHandler       cpct_firmware
+     000041DC  cpct_disableFirmware_asm           cpct_firmware
+     000041DC  cpct_removeInterruptHandler_asm    cpct_firmware
+     000041EC  _cpct_getRandom_mxor_u8            cpct_random
+     000041EC  cpct_getRandom_mxor_u8_asm         cpct_random
+     000041ED  cpct_randomIdx_mxor_u8             cpct_random
+     00004211  _cpct_mode_rom_status              cpct_firmware
+     00004212  cpct_getScreenPtr_asm              cpct_video
+     0000422E  _cpct_mxor32_seed                  cpct_random
+     00004232  _cpct_nextRandom_mxor_u32          cpct_random
+     00004232  cpct_nextRandom_mxor_u32_asm       cpct_random
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 3.
+
+Files Linked                              [ module(s) ]
+
+obj/cpctelera_functions.h.rel             [  ]
+obj/entity_manager.h.rel                  [  ]
+obj/entity_manager.rel                    [  ]
+obj/main.rel                              [ cpct_keyboard ]
+obj/physics_system.h.rel                  [  ]
+obj/physics_system.rel                    [  ]
+obj/render_system.h.rel                   [  ]
+obj/render_system.rel                     [  ]
+
+
+Libraries Linked                          [ object file ]
+
+/home/alejandro/cpctelera/cpctelera/cpctelera.lib
+                                          [ cpct_setPALColour_asmbindings.re ]
+/home/alejandro/cpctelera/cpctelera/cpctelera.lib
+                                          [ cpct_setVideoMode_asmbindings.re ]
+/home/alejandro/cpctelera/cpctelera/cpctelera.lib
+                                          [ cpct_waitVSYNC.rel ]
+/home/alejandro/cpctelera/cpctelera/cpctelera.lib
+                                          [ cpct_removeInterruptHandler.rel ]
+/home/alejandro/cpctelera/cpctelera/cpctelera.lib
+                                          [ cpct_getRandom_mxor_u8.rel ]
+/home/alejandro/cpctelera/cpctelera/cpctelera.lib
+                                          [ cpc_mode_rom_status.rel ]
+/home/alejandro/cpctelera/cpctelera/cpctelera.lib
+                                          [ cpct_getScreenPtr_asmbindings.re ]
+/home/alejandro/cpctelera/cpctelera/cpctelera.lib
+                                          [ cpct_mxor32_seed.rel ]
+/home/alejandro/cpctelera/cpctelera/cpctelera.lib
+                                          [ cpct_nextRandom_mxor_u32.rel ]
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 4.
+
+User Base Address Definitions
+
+_CODE = 0x4000
+_DATA = 0x0000
+
+

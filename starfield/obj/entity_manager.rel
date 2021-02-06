@@ -1,0 +1,80 @@
+XL2
+H 1 areas 15 global symbols
+S cpct_setPALColour_asm Ref0000
+S system_physics_update_one_entity Ref0000
+S max_entities Def000F
+S .__.ABS. Def0000
+S system_render_one_entity Ref0000
+S system_render_update Ref0000
+S system_physics_update Ref0000
+S cpct_waitVSYNC_asm Ref0000
+S cpct_setVideoMode_asm Ref0000
+S cpct_disableFirmware_asm Ref0000
+S cpct_getRandom_mxor_u8_asm Ref0000
+S cpct_getScreenPtr_asm Ref0000
+A _CODE size B7 flags 0 addr 0
+S _reserved_entities Def0000
+S _last_element_ptr Def0001
+S _function_forall Def0003
+S manager_entity_set4destruction Def00A9
+S manager_entity_create Def0050
+S manager_entity_init Def004F
+S m_entities Def0004
+S manager_entity_forall Def007E
+S manager_entity_restart Def00AE
+T 00 00 00 04 00 00
+R 00 00 00 00 00 03 00 00
+T 04 00
+R 00 00 00 00
+T 04 00 DE AD DE AD AA DE AD DE AD AA DE AD DE AD
+R 00 00 00 00
+T 12 00 AA DE AD DE AD AA DE AD DE AD AA DE AD DE
+R 00 00 00 00
+T 20 00 AD AA DE AD DE AD AA DE AD DE AD AA DE AD
+R 00 00 00 00
+T 2E 00 DE AD AA DE AD DE AD AA DE AD DE AD AA DE
+R 00 00 00 00
+T 3C 00 AD DE AD AA DE AD DE AD AA DE AD DE AD AA
+R 00 00 00 00
+T 4A 00 DE AD DE AD AA
+R 00 00 00 00
+T 4F 00
+R 00 00 00 00
+T 4F 00 C9
+R 00 00 00 00
+T 50 00
+R 00 00 00 00
+T 50 00 ED 5B 01 00 01 05 00 ED B0 DD 2A 01 00 CD
+R 00 00 00 00 00 04 00 00 00 0D 00 00
+T 5E 00 00 00 7D DD 77 01 3E 7F DD 77 00 2A 01 00
+R 00 00 00 00 02 02 0A 00 00 0E 00 00
+T 6C 00 01 05 00 09 22 01 00 3A 00 00 3C 32 00 00
+R 00 00 00 00 00 07 00 00 00 0A 00 00 00 0E 00 00
+T 7A 00 CD 00 00 C9
+R 00 00 00 00 02 03 0A 00
+T 7E 00
+R 00 00 00 00
+T 7E 00 79 32 03 00 3A 00 00 DD 21 04 00
+R 00 00 00 00 00 04 00 00 00 07 00 00 00 0B 00 00
+T 89 00
+R 00 00 00 00
+T 89 00 F5 DD 7E 00 C6 00 28 0E 3A 03 00 3D 28 05
+R 00 00 00 00 00 0B 00 00
+T 97 00 CD 00 00 18 03
+R 00 00 00 00 02 03 04 00
+T 9C 00
+R 00 00 00 00
+T 9C 00 CD 00 00
+R 00 00 00 00 02 03 01 00
+T 9F 00
+R 00 00 00 00
+T 9F 00 F1 3D C8 11 05 00 DD 19 18 E0
+R 00 00 00 00
+T A9 00
+R 00 00 00 00
+T A9 00 DD 36 04 00 C9
+R 00 00 00 00
+T AE 00
+R 00 00 00 00
+T AE 00 DD 36 01 4F DD 36 04 FF C9
+R 00 00 00 00

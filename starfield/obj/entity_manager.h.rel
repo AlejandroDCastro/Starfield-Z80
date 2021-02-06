@@ -1,0 +1,10 @@
+XL2
+H 1 areas 7 global symbols
+S max_entities Def000F
+S .__.ABS. Def0000
+S manager_entity_set4destruction Ref0000
+S manager_entity_create Ref0000
+S manager_entity_init Ref0000
+S manager_entity_forall Ref0000
+S manager_entity_restart Ref0000
+A _CODE size 0 flags 0 addr 0
