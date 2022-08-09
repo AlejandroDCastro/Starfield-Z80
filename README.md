@@ -4,8 +4,8 @@ Starfield effect made in Z80 assembly by Alejandro Castro Valero, using CPCteler
 ***
 
 ## Requirements
-* CPCtelera framework
-* Windows, Linux and OSX operating system
+* **CPCtelera** framework
+* **Windows**, **Linux** and **OSX** operating system
 
 ***
 
